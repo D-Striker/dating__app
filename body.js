@@ -49,5 +49,43 @@ export const styles = StyleSheet.create({
     borderRadius: 45,
     height: '80%',
     marginBottom: 80,
+  },
+  modal:{
+    backgroundColor:"#f2f2f2",
+    width:"80%",
+    height:"80%",
+    borderRadius:10,
+    marginLeft:"auto",
+    marginRight:'auto',
+    marginTop:"20%",
+    display:'flex',
+    flexDirection:'column',
+    alignItems:'center'
+  },
+  modal__button:{
+      width:"40%",
+      backgroundColor:'#6495ED',
+      alignItems:'center',
+      height:"7.5%",
+      justifyContent:'center',
+      borderRadius:10,
+      position:'absolute',
+      bottom:20,
+  },
+  modal__title:{
+      fontSize:20,
+      fontWeight:"600",
+      marginTop:30
+  },
+  modal__input:{
+    borderWidth:1,
+    width:"80%",
+    borderRadius:10,
+    marginTop:5,
+    paddingLeft:16
+  },
+  modal__lable:{
+    marginTop:30,
+
   }
 });
