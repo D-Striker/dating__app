@@ -14,6 +14,9 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 50,
   },
+  text__title: {
+    marginBottom: 200,
+  },
   block__1: {
     backgroundColor: '#dedede',
     height: '60%',
