@@ -5,7 +5,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: '#f5f5f5',
   },
   text: {
@@ -19,7 +18,7 @@ export const styles = StyleSheet.create({
   },
   block__1: {
     backgroundColor: '#dedede',
-    height: '60%',
+    height: '20%',
     width: '90%',
     textAlign: 'center',
     borderRadius: 25,
@@ -74,7 +73,7 @@ export const styles = StyleSheet.create({
   },
   modal__button_text: {
     color: '#f5f5f5',
-    letterSpacing: '2px',
+    letterSpacing:2,
     textTransform: 'uppercase',
     fontWeight: 'bold',
   },
@@ -102,5 +101,6 @@ export const styles = StyleSheet.create({
     width:'80%',
     overflow: 'hidden',
     borderRadius: 25,
+    top:-120
   },
 });
