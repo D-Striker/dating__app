@@ -18,11 +18,12 @@ export const styles = StyleSheet.create({
   },
   block__1: {
     backgroundColor: '#dedede',
-    height: '20%',
+    height: '80%',
     width: '90%',
     textAlign: 'center',
     borderRadius: 25,
     display: 'flex',
+    overflow:"hidden",
     justifyContent: 'center',
     alignItems: 'center',
   },
