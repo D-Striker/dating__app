@@ -92,6 +92,7 @@ export const styles = StyleSheet.create({
     marginTop:5,
     paddingLeft:16,
     borderColor: '#f5f5f5',
+    color:"#fff"
   },
   modal__lable:{
     marginTop:30,
