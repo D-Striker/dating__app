@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
   },
   block__1: {
     backgroundColor: '#dedede',
-    height: '20%',
+    minHeight: '20%',
     width: '90%',
     textAlign: 'center',
     borderRadius: 25,
@@ -101,6 +101,5 @@ export const styles = StyleSheet.create({
     width:'80%',
     overflow: 'hidden',
     borderRadius: 25,
-    top:-120
   },
 });
