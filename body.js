@@ -18,11 +18,8 @@ export const styles = StyleSheet.create({
   },
   block__1: {
     backgroundColor: '#dedede',
-<<<<<<< HEAD
     minHeight: '20%',
-=======
     height: '80%',
->>>>>>> ca91fbb1c8f0e6d4be01a003901c3baca7b3862d
     width: '90%',
     textAlign: 'center',
     borderRadius: 25,
