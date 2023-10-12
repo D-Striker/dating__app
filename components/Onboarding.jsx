@@ -15,6 +15,5 @@ export default function Onboarding() {
                 )
             }
         </ScrollView>
-            </View>
+        </View>
 )}
-=

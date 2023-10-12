@@ -104,5 +104,6 @@ export const styles = StyleSheet.create({
     width:'80%',
     overflow: 'hidden',
     borderRadius: 25,
+    top: -120,
   },
 });
