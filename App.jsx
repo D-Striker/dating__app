@@ -17,13 +17,13 @@ export default function App() {
   }
   
   return (
-      <>
+      <View style={[styles.container, modal ? {opacity: 0.3} : '']}>
         <Modal 
-        animationType='slide'
-        visible={modal}
-        transparent={true}
+          animationType='slide'
+          visible={modal}
+          transparent={true}
         >
-          <TouchableOpacity onPress={() => setModal(false)}  style={styles.container}>
+          <TouchableOpacity onPress={() => setModal(false)} style={styles.modal__container}>
           <TouchableOpacity 
             style={styles.modal}
             activeOpacity={1}
@@ -50,7 +50,7 @@ export default function App() {
           </Pressable>
         </View>
         <StatusBar style="auto" />
-      </>
+      </View>
   );
 }
 

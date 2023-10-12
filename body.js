@@ -106,4 +106,8 @@ export const styles = StyleSheet.create({
     borderRadius: 25,
     top: -120,
   },
+  modal__container: {
+    height: '100%',
+    width: '100%',
+  }
 });
